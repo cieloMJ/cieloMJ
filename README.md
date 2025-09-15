@@ -27,13 +27,3 @@
     <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white">
   </div>
 </div>
- 
-<div align="center">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">💻 Coding Profiles</h2>
-  <a href="https://solved.ac/kmg7978/">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kmg7978">
-  </a>
-  <a href="https://programmers.co.kr/profile/cielo">
-    <img src="https://img.shields.io/badge/Programmers-Level%20IM-blue">
-  </a>
-</div>
