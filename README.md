@@ -28,6 +28,6 @@
   </div>
 </div>
 <div align="center">
- [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kmg7978@naver.com)](https://solved.ac/kmg7978@naver.com/) 
+ [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kmg7978)](https://solved.ac/kmg7978/) 
 </div>
     </div><br>
