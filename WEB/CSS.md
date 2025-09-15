@@ -6,7 +6,6 @@ Cascading Style Sheet
 
 웹 페이지의 **디자인**과 **레이아웃**을 구성하는 언어 (웹 스타일링)
 
-![image.png](attachment:8e2d6d6e-13d6-4481-9671-0a633551bf57:image.png)
 
 **적용 방법**
 
