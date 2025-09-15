@@ -27,4 +27,7 @@
     <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white">
   </div>
 </div>
+<div align="center">
+ [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kmg7978@naver.com)](https://solved.ac/kmg7978@naver.com/) 
+</div>
     </div><br>
