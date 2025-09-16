@@ -37,37 +37,24 @@
 
 - 방향에 따른 분류
     - 무향(무방향) 그래프 (Undirected Graph)
-        
-        ![image.png](attachment:8c8c98bd-81c2-4067-8413-f0b430942909:image.png)
-        
         - 간선에 방향이 없는 그래프
         - 양방향 모두 이동 가능한 그래프
         즉, A-B 라는 간선이 있다면, A→ B와 B→A 모두 가능
     
     - 유향(방향) 그래프 (Directed Graph)
-        
-        ![image.png](attachment:18196a40-175e-480b-8b8f-ebf420872afe:image.png)
-        
         - 간선에 방향이 있는 그래프
         - 일방통행만 가능한 그래프
         즉, A→B라는 간선이 있다면, B→A는 불가
         
     - 가중치 그래프 (Weighted Graph)
-        
-        ![image.png](attachment:3b9d2c02-244d-4d8c-8df0-af54d2e59492:image.png)
-        
         - 간선마다 가중치가 부여되는 그래프
             - 가중치(비용) : 이동에 드는 거리, 시간, 비용 등
         - 이동에 있어 고려할 비용이 있는 것
         예를 들어, A —5— B : A→B에 5의 비용이 든다는 것
         - 대표 알고리즘 예시
-            
             : 다익스트라, 벨만-포드, 크루스칼 등 
             
     - 사이클 없는 방향 그래프
-        
-        ![image.png](attachment:58d91ab7-38fd-4b44-a2e4-a816b742a208:image.png)
-        
         - 유향 그래프 (DAG; Directed Acyclic Graph)
             - 방향이 있지만 사이클 (순환)이 없는 그래프
                 - 같은 노드로 다시 돌아 올 수 없음
@@ -88,9 +75,6 @@
                     
 - 전체 여부
     - 완전 그래프
-        
-        ![image.png](attachment:89fd95c7-545a-4919-ac1a-0c62f400e0ba:image.png)
-        
         - 정점에 대해 가능한 모든 간선을 가진 그래프
         
     - 부분 그래프
@@ -111,9 +95,6 @@
     - 행 번호와 열 번호는 그래프의 정점에 대응
     - 두 정점이 인접해있으면 1, 아니면 0으로 표현
 - **무향 그래프**의 경우,
-    
-    ![image.png](attachment:1012ce00-fbcd-416d-a7b8-873d5f8aa6bf:image.png)
-    
     **i 번째 행의 합 = i 번째 열의 합 = Vi의 차수**
     
     - i번째 행의 합
@@ -124,9 +105,6 @@
         : 대칭이기 때문에, i 번째 열의 합도 정점 i에 연결된 정점의 수와 동일함
         
 - **유향 그래프**의 경우,
-    
-    ![image.png](attachment:c2b072fc-f871-4acd-90f7-e4ffdcd6f442:image.png)
-    
     - i 번째 행의 합 = Vi의 **진출 차수**
     - i 번째 열의 합 = Vi의 **진입 차수**
 - 장단점
@@ -141,15 +119,9 @@
     - 하나의 정점에 대한 인접 정점들을 각 노드로 하는 연결 리스트로 저장
     - 연결되어 있는 것들만 작성하고 그 외의 경우 버림
 - **무향 그래프**의 경우,
-    
-    ![image.png](attachment:7e5271bd-6136-4ed3-8376-e4612195df4d:image.png)
-    
     - 노드 수 = 간선의 수 *2
     - 각 정점의 노드 수 = 정점의 차수
 - **유향 그래프**의 경우,
-    
-    ![image.png](attachment:e91e8df7-1f73-4548-acb7-32df4e71f34f:337da819-96ce-42b3-9957-e7410107796b.png)
-    
     - 노드 수 = 간선의 수
     - 각 정점의 노드 수 = 정점의 진출 차수
 - 장단점
@@ -163,9 +135,6 @@
 **Depth First Search**
 
 - 갈 수 있으면 하나씩 끝까지 들어가는 것
-
-![image.png](attachment:b0382e51-a01b-4830-99b7-19e1b6539275:image.png)
-
 풀이 방법
 
 - 모든 정점을 중복없이 모두 방문하는 경우
@@ -184,9 +153,6 @@
     ```
     
     1. stack (반복)
-
-![image.png](attachment:b32ff5b9-4b09-4bee-a661-c9d1123deb79:image.png)
-
 ```python
 # 슈도 코드
 
@@ -219,19 +185,9 @@ DFS(v)
 				push(s, w)
 				visited[v] = True
 ```
-
-![image.png](attachment:36ec46f1-2ead-4d59-a68d-8f3de0cd00f5:image.png)
-
 ## BFS
 
 Breadth First Search
-
-![image.png](attachment:cdedd6ff-b9cb-4026-9903-472a6f44dc83:image.png)
-
-![image.png](attachment:9b6acb44-579a-41f7-a9d3-e80ed877b38c:image.png)
-
-![image.png](attachment:c8fb58bc-d7a9-4cc8-9035-21191226e82d:image.png)
-
 ## Union-Find
 
 ### 서로소 집합
@@ -257,28 +213,12 @@ Breadth First Search
     - 같은 집합의 원소들은 하나의 연결 리스트로 관리
     - 집합의 대표자 : 연결 리스트의 맨 앞의 원소
     - 각 원소는 집합의 대표 원소를 가르키는 링크를 가짐
-    
-    ![image.png](attachment:ac8903d2-beb7-4259-95c2-9583bfa0d6b5:image.png)
-    
-    - 예시
-        
-        ![image.png](attachment:20c810b9-a878-49be-8cc4-9be369732671:image.png)
-        
 
 - 트리
     - 하나의 집합( A Disjoint Set) 을 하나의 트리로 표현
     - 자식 노드가 부모 노드를 가르킴
     - 대표자 : 루트 노드
-    
-    ![image.png](attachment:23026853-99ea-45c2-9c3d-f523727a36f5:image.png)
-    
-    - 예시
 
-![image.png](attachment:3e1b4379-ab16-4cca-93f9-91f7b74b0fe6:image.png)
-
-![image.png](attachment:5e0735b9-5fd5-476f-9055-ec5067551f1f:image.png)
-
-![image.png](attachment:b7a1e1d9-6f1c-46e8-8834-42105bb8d36f:image.png)
 
 **집합 연산**
 
@@ -336,10 +276,7 @@ Breadth First Search
         ```
         
     - 합집합의 대표 원소: x
-    
-
-![image.png](attachment:a13db480-0ccf-4d49-8cce-642317b8713f:image.png)
-
+ 
 ![초기 상태 : 각자 자기 자신이 루트
 
 Union(2, 3) 실행
@@ -356,7 +293,7 @@ rootX = 2, rootY = 1
 
 핵심
 : **union을 어떻게 구현했느냐(부모 갱신 방향)** 에 따라 `p` 배열(부모 포인터) 모양은 달라질 수 있지만, 최종적으로 `find` 하면 전부 같은 루트로 모이게 됨
-(**루트(root)와 부모 포인터는 다를 수 있음)**](attachment:e98e052f-a707-42cf-943b-bdf0e6f6bbdd:image.png)
+(**루트(root)와 부모 포인터는 다를 수 있음)**]
 
 초기 상태 : 각자 자기 자신이 루트
 
