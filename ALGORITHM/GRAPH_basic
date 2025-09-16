@@ -1,0 +1,442 @@
+# 그래프의 기본과 탐색
+
+## 그래프의 기본
+
+### **그래프**
+
+**개념**
+
+- 아이템(사물 또는 추상적 개념)들과 이들 사이의 연결 관계를 표현한 것
+    - 선형 자료구조나 트리 자료구조로 표현하기 어려운 N:N 관계를 가지는 원소 표현함에 용이
+- 정점(Vertex)들의 집합과 이들을 연결하는 간선(Edge)들의 집합으로 구성된 자료 구조
+    - 최대 간선의 수 : $V*(V-1)/2$개
+    ( V : 정점의 개수, E : 그래프에 포함된 간선의 개수 )
+    
+- **인접 정점 (Adjacency)**
+    - 두 개의 정점에 간선이 존재하면 서로 인접한 것 (연결된 경우)
+    - 완전 그래프에 속한 임의의 두 정점은 모두 인접해있음
+
+- **그래프 경로**
+    
+    - 경로
+    - 간선을 순서대로 나열한 것
+    - 예시
+        - 간선 : (0, 2), (2, 4), (4, 6)
+        - 정점 : 0 - 2- 4- 6
+        
+    - 단순 경로
+        - 경로 중 한 정점을 최대한 한번만 지나는 경로
+        - 예시
+            - 0 - 2 - 4 - 6
+            - 0 - 1 - 6
+            
+    - 사이클 (Cycle)
+        - 시작한 정점에서 끝나는 경로
+        - 1 - 3 - 5 - 1
+**유형**
+
+- 방향에 따른 분류
+    - 무향(무방향) 그래프 (Undirected Graph)
+        
+        ![image.png](attachment:8c8c98bd-81c2-4067-8413-f0b430942909:image.png)
+        
+        - 간선에 방향이 없는 그래프
+        - 양방향 모두 이동 가능한 그래프
+        즉, A-B 라는 간선이 있다면, A→ B와 B→A 모두 가능
+    
+    - 유향(방향) 그래프 (Directed Graph)
+        
+        ![image.png](attachment:18196a40-175e-480b-8b8f-ebf420872afe:image.png)
+        
+        - 간선에 방향이 있는 그래프
+        - 일방통행만 가능한 그래프
+        즉, A→B라는 간선이 있다면, B→A는 불가
+        
+    - 가중치 그래프 (Weighted Graph)
+        
+        ![image.png](attachment:3b9d2c02-244d-4d8c-8df0-af54d2e59492:image.png)
+        
+        - 간선마다 가중치가 부여되는 그래프
+            - 가중치(비용) : 이동에 드는 거리, 시간, 비용 등
+        - 이동에 있어 고려할 비용이 있는 것
+        예를 들어, A —5— B : A→B에 5의 비용이 든다는 것
+        - 대표 알고리즘 예시
+            
+            : 다익스트라, 벨만-포드, 크루스칼 등 
+            
+    - 사이클 없는 방향 그래프
+        
+        ![image.png](attachment:58d91ab7-38fd-4b44-a2e4-a816b742a208:image.png)
+        
+        - 유향 그래프 (DAG; Directed Acyclic Graph)
+            - 방향이 있지만 사이클 (순환)이 없는 그래프
+                - 같은 노드로 다시 돌아 올 수 없음
+            - 주요 알고리즘 예시
+            : 위상 정렬 (Topological Sort)
+            
+        - 무향 그래프
+            - 사이클이 없다면 연결 여부에 따라 나눠짐
+                - 포레스트 (Forest)
+                - 트리 (Tree)
+        - 사이클이란
+            - 유향 사이클
+                - 간선의 방향을 따라 출발점으로 되돌아오는 경로가 있는 경우
+            - 무향 사이클
+                - 방향을 고려하지 않았을 때, 닫힌 경로가 있는 경우
+                    - 닫힌 경로 : 같은 정점으로 돌아오는 경로
+                    - 방향을 신경 쓰지 않고, 단순히 선(간선)만 연결했을 때 원 모양이 되는 구조
+                    
+- 전체 여부
+    - 완전 그래프
+        
+        ![image.png](attachment:89fd95c7-545a-4919-ac1a-0c62f400e0ba:image.png)
+        
+        - 정점에 대해 가능한 모든 간선을 가진 그래프
+        
+    - 부분 그래프
+        - 원래 그래프에서 일부 정점이나 간선을 제외한 그래프
+
+**표현** 
+
+- 간선의 정보를 저장하는 방식
+    - 메모리나 성능을 고려하여 결정
+    - 간선의 배열
+    : 간선(시작 정점, 끝 정점)을 배열에 연속적으로 저장
+- 구분
+
+### **인접 행렬 (Adjacent Matrix)**
+
+- 두 정점을 연결하는 간선의 유무를 행렬로 표현한 것
+- V x V 크기의 2차원 배열을 이용하여 간선 정보 저장
+    - 행 번호와 열 번호는 그래프의 정점에 대응
+    - 두 정점이 인접해있으면 1, 아니면 0으로 표현
+- **무향 그래프**의 경우,
+    
+    ![image.png](attachment:1012ce00-fbcd-416d-a7b8-873d5f8aa6bf:image.png)
+    
+    **i 번째 행의 합 = i 번째 열의 합 = Vi의 차수**
+    
+    - i번째 행의 합
+    = 정점 i에서 연결된 간선의 수 
+    = i의 차수 (degree)
+    - i번째 열의 합
+        
+        : 대칭이기 때문에, i 번째 열의 합도 정점 i에 연결된 정점의 수와 동일함
+        
+- **유향 그래프**의 경우,
+    
+    ![image.png](attachment:c2b072fc-f871-4acd-90f7-e4ffdcd6f442:image.png)
+    
+    - i 번째 행의 합 = Vi의 **진출 차수**
+    - i 번째 열의 합 = Vi의 **진입 차수**
+- 장단점
+    - 장점 : 쉽고 특정 연결 검색이 빠름
+        - 단점 : 공간 낭비가 심함 (정점 수에 비해 간선의 수가 적은 경우)
+        → 연결되지 않으면 모두 0으로 작성하기 때문에 메모리 낭비가 심함
+
+### **인접 리스트 (Adjacent List)**
+
+- 각 정점마다 해당 정점과 인접한 정점 정보 저장
+    - 각 정점에 대한 인접 정점들을 순차적으로 표현
+    - 하나의 정점에 대한 인접 정점들을 각 노드로 하는 연결 리스트로 저장
+    - 연결되어 있는 것들만 작성하고 그 외의 경우 버림
+- **무향 그래프**의 경우,
+    
+    ![image.png](attachment:7e5271bd-6136-4ed3-8376-e4612195df4d:image.png)
+    
+    - 노드 수 = 간선의 수 *2
+    - 각 정점의 노드 수 = 정점의 차수
+- **유향 그래프**의 경우,
+    
+    ![image.png](attachment:e91e8df7-1f73-4548-acb7-32df4e71f34f:337da819-96ce-42b3-9957-e7410107796b.png)
+    
+    - 노드 수 = 간선의 수
+    - 각 정점의 노드 수 = 정점의 진출 차수
+- 장단점
+    - 장점 : 효율적인 메모리 사용 (→ 연결되지 않으면 버림)
+    - 단점 : 특정 연결 정보 조회 느림 ( 갑자기 중간에 확인할 수 X, 처음부터 다 확인해야 함)
+
+---
+
+## DFS
+
+**Depth First Search**
+
+- 갈 수 있으면 하나씩 끝까지 들어가는 것
+
+![image.png](attachment:b0382e51-a01b-4830-99b7-19e1b6539275:image.png)
+
+풀이 방법
+
+- 모든 정점을 중복없이 모두 방문하는 경우
+    
+    G : 탐색할 그래프 / V: 방문하는 정점
+    
+    1. 재귀 
+    
+    ```python
+    DFS_Recursive(G, V):
+    	visited[v] <- True // v 방문 설정
+    	
+    	for each all w in adjacency(G, V)
+    		if visited[w] != True
+    			DFS_Recursive(G, w)
+    ```
+    
+    1. stack (반복)
+
+![image.png](attachment:b32ff5b9-4b09-4bee-a661-c9d1123deb79:image.png)
+
+```python
+# 슈도 코드
+
+stack s
+visited[]
+DFS(v)
+	push(s, v)
+	while not isEmpty(s)
+		v <- pop(s)
+		if not visited[v]
+			visit[v]
+			for each w in adjacency(v)
+				if not visited[w]
+					push(s, w)
+```
+
+```python
+# 슈도 코드
+
+stack s
+visited[]
+DFS(v)
+	push(s, v)
+	visited[v] = True
+	while not isEmpty(s)
+		v <- pop(s)
+		visit[v]
+		for each w in adjacency(v)
+			if not visited[w]
+				push(s, w)
+				visited[v] = True
+```
+
+![image.png](attachment:36ec46f1-2ead-4d59-a68d-8f3de0cd00f5:image.png)
+
+## BFS
+
+Breadth First Search
+
+![image.png](attachment:cdedd6ff-b9cb-4026-9903-472a6f44dc83:image.png)
+
+![image.png](attachment:9b6acb44-579a-41f7-a9d3-e80ed877b38c:image.png)
+
+![image.png](attachment:c8fb58bc-d7a9-4cc8-9035-21191226e82d:image.png)
+
+## Union-Find
+
+### 서로소 집합
+
+**Disjoint set**
+
+**개념**
+
+- 서로 공통 원소가 없는 집합
+    - 교집합이 없는 집합 (교집합이 공집합이 ㄴ경우)
+- 대표자 (representative)
+    
+    : 각 집합을 대표하는 하나의 원소
+    
+- 상호 배타 집합
+    - 확률, 논리, 집합론에서 동시에 일어날 수 없는 경우, 공통이 없는 경우를 의미
+    - 집합론에서는 서로소와 동일한 의미로 사용
+- 시간 복잡도 : O(N) (단순 구현 시)
+
+**표현 방법**
+
+- 연결 리스트
+    - 같은 집합의 원소들은 하나의 연결 리스트로 관리
+    - 집합의 대표자 : 연결 리스트의 맨 앞의 원소
+    - 각 원소는 집합의 대표 원소를 가르키는 링크를 가짐
+    
+    ![image.png](attachment:ac8903d2-beb7-4259-95c2-9583bfa0d6b5:image.png)
+    
+    - 예시
+        
+        ![image.png](attachment:20c810b9-a878-49be-8cc4-9be369732671:image.png)
+        
+
+- 트리
+    - 하나의 집합( A Disjoint Set) 을 하나의 트리로 표현
+    - 자식 노드가 부모 노드를 가르킴
+    - 대표자 : 루트 노드
+    
+    ![image.png](attachment:23026853-99ea-45c2-9c3d-f523727a36f5:image.png)
+    
+    - 예시
+
+![image.png](attachment:3e1b4379-ab16-4cca-93f9-91f7b74b0fe6:image.png)
+
+![image.png](attachment:5e0735b9-5fd5-476f-9055-ec5067551f1f:image.png)
+
+![image.png](attachment:b7a1e1d9-6f1c-46e8-8834-42105bb8d36f:image.png)
+
+**집합 연산**
+
+- Make-Set(x)
+    - x를 원소로 가진 집합 생성
+        - 유일한 멤버 x를 포함하여 새로운 집합을 생성하는 연산
+        
+        ```python
+        # p[x] : 노드 x의 부모 저장
+        # rank[x] : 루트 노드가 x인 트리의 랭크 값 저장
+        
+        Make-Set(x)
+        	p[x] <- x
+        	rank[x] <- 0
+        ```
+        
+- Find-Set(x)
+    - 특정 노드에서 루트까지의 경로를 찾아가면서 노드의 부모 정보 갱신
+    - x가 속한 집합의 대표 원소 반환
+        - x를 포함하는 집합을 찾는 연산
+        
+        ```python
+        Find-Set(x)
+        	if x == p[x] : return x
+        	else: return Find_Set(p[x])
+        	
+        	
+        # 반복
+        Find-Set(x)
+        	while x != p[x]
+        		x = p[x]
+        	return x
+        ```
+        
+- Union(x, y)
+    - x가 속한 집합과 y가 속한 집합의 합집합 생성
+        - x와 y를 포함하는 두 집합을 통합하는 연산
+        
+        ```python
+        Union(x, y)
+        	p[Find-Set(y)] <- Find-Set(x)
+        	
+        	
+        	
+        Union(x, y)
+        	Link(Find_Set(x), Find_Set(y))
+        
+        Link(x, y)
+        	if rank[x] > rank[y] # rank: 트리의 높이
+        		p[y] <- x
+        	else:
+        		p[x] <- y
+        	if rank[x] == rank[y]
+        		rank[y] ++
+        ```
+        
+    - 합집합의 대표 원소: x
+    
+
+![image.png](attachment:a13db480-0ccf-4d49-8cce-642317b8713f:image.png)
+
+![초기 상태 : 각자 자기 자신이 루트
+
+Union(2, 3) 실행
+⇒
+find(2) = 2, 
+find(3) = ?
+→ union(2, 3)은 사실상 union(2, 1)
+
+구현에 따라 작은 쪽을 큰 쪽 밑에 붙인다 혹은 y루트를 x 밑에 붙이는 것
+
+→ p[rootY] = rootX 이렇게 구현한다면
+rootX = 2, rootY = 1
+⇒ p[1] = 2로 갱신하게 됨
+
+핵심
+: **union을 어떻게 구현했느냐(부모 갱신 방향)** 에 따라 `p` 배열(부모 포인터) 모양은 달라질 수 있지만, 최종적으로 `find` 하면 전부 같은 루트로 모이게 됨
+(**루트(root)와 부모 포인터는 다를 수 있음)**](attachment:e98e052f-a707-42cf-943b-bdf0e6f6bbdd:image.png)
+
+초기 상태 : 각자 자기 자신이 루트
+
+Union(2, 3) 실행
+⇒
+find(2) = 2, 
+find(3) = ?
+→ union(2, 3)은 사실상 union(2, 1)
+
+구현에 따라 작은 쪽을 큰 쪽 밑에 붙인다 혹은 y루트를 x 밑에 붙이는 것
+
+→ p[rootY] = rootX 이렇게 구현한다면
+rootX = 2, rootY = 1
+⇒ p[1] = 2로 갱신하게 됨
+
+핵심
+: **union을 어떻게 구현했느냐(부모 갱신 방향)** 에 따라 `p` 배열(부모 포인터) 모양은 달라질 수 있지만, 최종적으로 `find` 하면 전부 같은 루트로 모이게 됨
+(**루트(root)와 부모 포인터는 다를 수 있음)**
+
+```python
+# 부모 배열 초기화
+parent = [i for i in range(10)]  # 0~9
+
+# find 연산 (경로 압축)
+def find(x):
+    if parent[x] != x:
+        parent[x] = find(parent[x])  # 루트를 재귀적으로 찾으면서 압축
+    return parent[x]
+
+# union 연산 (랭크/크기 고려하지 않은 단순 버전)
+def union(x, y):
+    rootX = find(x)
+    rootY = find(y)
+    if rootX != rootY:
+        parent[rootY] = rootX  # y의 루트를 x 밑으로 붙임
+
+# 사용 예시
+union(1, 2)
+union(2, 3)
+print(find(1), find(3))  # 같은 집합이므로 같은 루트 출력
+
+```
+
+- 연산 문제점
+    - 편향 트리가 되는 경우, Find_Set()에 시간이 오래 걸림
+        
+        → Find_Set()에서 찾아진 대표 원소로 
+            각 원소의 대표 원소를 바꾸면 경로 단축 가능
+        
+
+- 연산 효율 높이는 방법
+    - Rank를 이용한 Union
+        
+        : 두 집합을 합칠 때, rank가 낮은 집합을 높은 집합에 붙임
+        
+        - 사용 방법
+            1. 두 집합의 루트(root) 찾기
+                
+                ```python
+                rootX = find(x)
+                rootY = find(y)
+                ```
+                
+            2. 두 루트의 rank (subtree의 높이) 비교
+                - $rank[rootX] < rank[rootY]$
+                    
+                    : rootX 를 rootY의 밑에 붙임
+                    
+                - $rank[rootX] > rank[rootY]$
+                    
+                    : rootY를 rootX의 밑에 붙임
+                    
+                - $rank[rootX] == rank[rootY]$
+                    
+                    : 한 쪽을 다른 쪽 밑에 붙이고, 루트의 rank를 +1
+                    
+                    → 높이가 같은 두 루트를 합칠 경우에만 rank 1 증가
+                
+    - Path Compression
+        - 사용 방법
+            
+            : Find-Set을 행하는 과정에서, 
+            만나는 모든 노드들이 직접 root를 가리키도록 포인터 바꿈
