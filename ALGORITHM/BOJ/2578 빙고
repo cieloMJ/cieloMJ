@@ -1,0 +1,47 @@
+import sys
+
+# 빙고 개수 체크할 함수 만들기
+def chk_bingo(arr):
+    # 전체 빙고 개수 CNT
+    bingo_cnt = 0
+    # 행 검사
+    for i in arr:
+        # 모든 행을 검사하면서 그 안에 있는 원소이 모두 0이라면 cnt +1
+        if all(row_x == 0 for row_x in i):
+            bingo_cnt += 1
+    # 열 검사
+    for j in zip(*arr):
+        # 열의 원소들이 모두 0인 경우 cnt +1
+        if all(col_y == 0 for col_y in j):
+            bingo_cnt +=  1
+
+    # 대각선 검사
+    # 우하향하는 그래프의 경우 
+    if all(arr[i][i] == 0 for i in range(5)):
+        bingo_cnt += 1
+    # 우상향하는 그래프의 경우 
+    if all(arr[i][4-i] == 0 for i in range(5)):
+        bingo_cnt += 1
+
+    return bingo_cnt
+
+# 빙고판 input
+bingo = [list(map(int, sys.stdin.readline().split())) for _ in range(5)]
+# 사회자가 부르는 숫자를 하나의 리스트로 받아오기
+nums = []
+for i in range(5):
+    nums += list(map(int, sys.stdin.readline().split()))
+# 사회자가 숫자를 부른 횟수를 count
+cnt = 0
+# 하나의 숫자를 볼 때 cnt +1
+for num in nums:
+    cnt += 1
+    # 빙고판 내부에서 해당 숫자와 같은 숫자가 있는 경우 0으로 표시하여 제거 체크
+    for i in range(5):
+        for j in range(5):
+            if bingo[i][j] == num:
+                bingo[i][j] = 0
+    # 빙고 개수가 3개 이상인 경우 사회자가 숫자를 말한 횟수를 print하고 더이상 진행 X
+    if chk_bingo(bingo) >= 3:
+        print(cnt)
+        break
