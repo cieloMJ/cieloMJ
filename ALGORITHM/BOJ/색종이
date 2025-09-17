@@ -1,0 +1,44 @@
+import sys
+
+# 색종이 개수 sys로 받아옴
+P = int(sys.stdin.readline())
+
+# 100x100 판 만들어주고 
+board = [[0]*100 for _ in range(100)]
+
+# 각 색종이의 값 받아옴
+for _ in range(P):
+    # 가로에 옆으로 간 정도, 아래와 떨어진 정도
+    # 즉, 색종이의 위치는 N부터 N+10 사이, 그리고 M부터 M+10 사이의 면적을 가지고 있게 됨
+    N, M = map(int, sys.stdin.readline().split())
+
+    # 가로와 세로의 값에 하나씩 방문 표시를 하며, 면적 chk
+    for i in range(N, N+10):
+        for j in range(M, M+10):
+            # 이전에 덮어진 부분이 아니라면 체크
+            if board[i][j] == 0:
+                board[i][j] = 1
+# 1의 개수 세기
+cnt = 0
+# 열 기준으로 해당 리스트 안에 1의 개수를 cnt하여 cnt 변수 값 갱신
+for i in range(100):
+    cnt += board[i].count(1)
+print(cnt)
+
+
+
+
+# 나중에 1의 개수를 세는 것이 아닌 방문 처리를 하고 바로 cnt +1 해도 됨
+# -> 하지만 이 경우가 위의 경우보다 시간이 더 오래 걸림
+import sys
+P = int(sys.stdin.readline())
+board = [[0]*100 for _ in range(100)]
+cnt = 0
+for _ in range(P):
+    N, M = map(int, sys.stdin.readline().split())
+    for i in range(N, N+10):
+        for j in range(M, M+10):
+            if board[i][j] == 0:
+                board[i][j] = 1
+                cnt += 1
+print(cnt)
