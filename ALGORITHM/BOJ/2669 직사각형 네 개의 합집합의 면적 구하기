@@ -1,0 +1,19 @@
+import sys
+
+# 문제에서 1~100 안의 숫자라고 했기 때문에 100*100으로 만듦
+visited = [[0]*100 for _ in range(100)]
+# 직사각형이 덮은 면적 더할 cnt 준비
+cnt = 0
+
+# 4개의 직사각형
+for _ in range(4):
+    # 2개의 꼭지점 좌표 구하기
+    a, b, c, d = map(int, sys.stdin.readline().split())
+    
+    for i in range(b, d):
+        for j in range(a, c):
+            if visited[i][j] == 0:
+                visited[i][j] += 1
+                cnt += 1
+
+print(cnt)
