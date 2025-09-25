@@ -1,0 +1,19 @@
+import sys
+h = [int(sys.stdin.readline()) for _ in range(9)]
+
+# 아닌 2명만 찾기
+total_h = sum(h)
+chk_h = total_h - 100
+
+for i in range(8):
+    for j in range(i+1, 9):
+        if chk_h == h[i]+h[j]:
+            xman = h[i]
+            xman2 = h[j]
+
+h.remove(xman)
+h.remove(xman2)
+h.sort()
+
+for i in h:
+    print(i)
