@@ -176,9 +176,6 @@
 
 <div align="center">
   <h2 style="color:#4A4238; margin-bottom:10px; font-size:11px;">Workspace</h2>
-  <p style="color:#5A4F44; font-size:10px; margin-bottom:14px;">
-    공부 및 협업을 위한 공간입니다.
-  </p>
   <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank" style="text-decoration:none; margin-right:10px;">
     <img src="https://img.shields.io/badge/Study_Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
   </a>
