@@ -70,8 +70,7 @@
 <div></div>
 
 <!-- ===== PROJECTS + EDUCATION / TECH (2 Column) ===== -->
-<div align="center>
-  <table width="100%" style="border-collapse:collapse;">
+  <table width="100%" margin="auto" style="border-collapse:collapse;">
     <tr>
       <td width="50%" valign="top" style="padding:20px;">
         <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Projects</h2>
@@ -175,7 +174,6 @@
       </td>
     </tr>
   </table>
-</div>
 
 <br><br>
 
