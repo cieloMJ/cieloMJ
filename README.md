@@ -1,29 +1,217 @@
- <div class="header">
-  <div align= "center">
-      <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffb619&text=Minji's%20GitHub%20&height=150&fontSize=60&descAlignY=75&descAlign=60" alt="Minji's GitHub">
-    </div>
-<div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me 🧑‍💻 </h2>
-    <div align= "center"> 
-    <a href=mailto:cielode1226@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:cielode1226@gmail.com"> </a>
-<!--     <a href="https://your-notion-link" target="_blank"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-  </a> -->
-          </div><br>
-    <div align= "center">  </div> 
-    <h2 align="center">📧 Email 📧</h2>
-<p align="center">
-  <Strong> cielode1226@gmail.com </Strong>
-</p><br>
+<!-- ===== HEADER (Full Width) ===== -->
 <div align="center">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> ✨ Tech Stack ✨ </h2>
-  <div style="margin: 0 auto; text-align: center;" align="center">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
-    <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-    <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=R&logoColor=white">
-    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
-    <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white">
-  </div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5E8C7&height=130&section=header"/>
 </div>
+
+<br>
+
+<!-- ===== GLOBAL CONTAINER (1100px 통일) ===== -->
+<div style="max-width:1100px; margin:auto;">
+
+<!-- ===== PROFILE ===== -->
+<div align="center" style="padding:30px 20px;">
+
+  <img src="https://avatars.githubusercontent.com/cieloMJ" width="135"
+       style="border-radius: 50%; margin-bottom: 18px;"/>
+
+  <h2 style="color:#4A4238; font-weight:600; font-size:26px;">Minji Kyoung</h2>
+
+  <p style="color:#5A4F44; line-height:1.55; margin:16px 0; font-size:15.5px;">
+    AI · Backend · Web 개발을 공부하고 있습니다.<br>
+    따뜻하고 실용적인 서비스를 만들고 싶습니다.<br>
+    오늘도 차분하게 성장 중입니다 ☕
+  </p>
+
+  <!-- Contact -->
+  <div style="margin-top: 10px;">
+    <a href="mailto:cielode1226@gmail.com" 
+       style="margin-right:6px; text-decoration:none; display:inline-block;">
+      <img src="https://img.shields.io/badge/Gmail-F5C6A5?style=flat&logo=gmail&logoColor=white">
+    </a><!--
+ --><a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank"
+       style="margin-right:6px; text-decoration:none; display:inline-block;">
+      <img src="https://img.shields.io/badge/Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
+    </a><!--
+ --><a href="https://cielococo.tistory.com/" target="_blank"
+       style="text-decoration:none; display:inline-block;">
+      <img src="https://img.shields.io/badge/Tistory-F56C2D?style=flat&logo=tistory&logoColor=white">
+    </a>
+  </div>
+
+</div>
+
+<br><br>
+
+<!-- ===== CURRENTLY WORKING ON ===== -->
+<div style="padding:20px;">
+
+  <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Currently Working On</h2>
+  <p style="color:#7d7469">최근 집중하고 있는 프로젝트와 학습 활동입니다.</p>
+  <div style="
+    border:1px solid #e5ddd3;
+    background:#FCF7F1;
+    border-radius:12px;
+    padding:22px;
+    text-align:left;
+    color:#5A4F44;
+    font-size:14px;
+  ">
+    <ul style="line-height:1.6; padding-left:18px;">
+      <li>Wedding Planner Web Service (Vue.js + Django)</li>
+      <li>Shop Web Service – Frontend 파트 담당 (학습 프로젝트)</li>
+      <li>SSAFY 내부 프로젝트 – 싸피레이스</li>
+    </ul>
+  </div>
+
+</div>
+
+<br><br>
+
+<!-- ===== PROJECTS + EDUCATION / TECH (2 Column) ===== -->
+<table width="100%" style="border-collapse:collapse;">
+  <tr>
+
+    <!-- LEFT: PROJECTS -->
+    <td width="50%" valign="top" style="padding:20px;">
+
+      <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Projects</h2>
+
+      <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
+
+        <!-- SSAFY AI Challenge -->
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">SSAFY AI Challenge</h3>
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
+          <li>2025.00.00-2025.00.00</li>
+          <li>공행성 기반 무역량 예측 ML 모델</li>
+          <li>시계열 기반 ML 파이프라인 구축</li>
+        </ul>
+
+        <br>
+
+        <!-- Wedding Planner -->
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
+          Wedding Planner Web Service
+          <a href="https://github.com/SSAFY-Finalpjt" target="_blank" style="text-decoration:none;">
+            <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
+          </a>
+        </h3>
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
+          <li>Vue.js + Django 기반 결혼 준비 플랫폼</li>
+          <li>청첩장 · 커뮤니티 · 플래너 기능 개발</li>
+        </ul>
+
+        <br>
+
+        <!-- DACON 2 -->
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
+          운수종사자 인지 데이터 기반 교통사고 위험 예측
+          <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-dacon-transport-risk" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
+          </a>
+        </h3>
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
+          <li>AUC · Brier Score 기반 평가</li>
+        </ul>
+
+        <br>
+
+        <!-- Shop Web Service -->
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
+          Shop Web Service
+          <a href="https://github.com/springofseoul" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
+          </a>
+        </h3>
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
+          <li>Django/Vue.js 기반 쇼핑몰 서비스 구현</li>
+          <li>Frontend 파트 담당</li>
+        </ul>
+
+        <br>
+
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">SSAFY Internal</h3>
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
+          <li>일타싸피</li>
+          <li>배틀싸피</li>
+          <li>싸피레이스 예정</li>
+        </ul>
+
+      </div>
+    </td>
+
+    <!-- RIGHT: EDUCATION + TECH -->
+    <td width="50%" valign="top" style="padding:20px;">
+
+      <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Education</h2>
+      <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px; margin-bottom:25px;">
+        <p style="color:#5A4F44; font-weight:600; margin:0 0 4px 0;">SSAFY 14기</p>
+        <p style="color:#5A4F44; font-size:14px; margin:0;">Python Track</p>
+
+        <ul>
+          <li style="color:#5A4F44; font-size:14px; margin:4px 0;">2025.07 - 참여 중</li>          
+          <li style="color:#5A4F44; font-size:14px; margin:4px 0;">AI/ML/DL 심화 실습</li>
+          <li style="color:#5A4F44; font-size:14px; margin:4px 0;">웹 풀스택 프로젝트 개발</li>
+        </ul>
+      </div>
+
+      <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Tech Stack</h2>
+      <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
+
+        <p style="color:#5A4F44; font-weight:600;">Backend</p>
+        <img src="https://img.shields.io/badge/Python-7DA2A9?style=flat-square&logo=python">
+        <img src="https://img.shields.io/badge/Django-5A7D61?style=flat-square&logo=django">
+        <img src="https://img.shields.io/badge/DRF-C46A5D?style=flat-square&logo=django">
+
+        <br><br>
+
+        <p style="color:#5A4F44; font-weight:600;">Frontend</p>
+        <img src="https://img.shields.io/badge/Vue.js-85BDA6?style=flat-square&logo=vuedotjs">
+        <img src="https://img.shields.io/badge/JavaScript-ECC94B?style=flat-square&logo=javascript">
+        <img src="https://img.shields.io/badge/HTML5-E67A4A?style=flat-square&logo=html5">
+        <img src="https://img.shields.io/badge/CSS3-4A90E2?style=flat-square&logo=css3">
+
+        <br><br>
+
+        <p style="color:#5A4F44; font-weight:600;">AI/Data</p>
+        <img src="https://img.shields.io/badge/Pandas-7DA2A9?style=flat-square&logo=pandas">
+        <img src="https://img.shields.io/badge/NumPy-5A7DAB?style=flat-square&logo=numpy">
+        <img src="https://img.shields.io/badge/Seaborn-85A4C1?style=flat-square">
+        <img src="https://img.shields.io/badge/Matplotlib-4E7AA2?style=flat-square">
+        <img src="https://img.shields.io/badge/PyTorch-C46A5D?style=flat-square&logo=pytorch">
+      
+        <br><br>
+        <p style="color:#5A4F44; font-weight:600;">Tools</p>
+        <img src="https://img.shields.io/badge/Git-D46A6A?style=flat-square&logo=git">
+        <img src="https://img.shields.io/badge/GitHub-3B3B3B?style=flat-square&logo=github">
+        <img src="https://img.shields.io/badge/VSCode-6B9AC4?style=flat-square&logo=visualstudiocode">
+        <img src="https://img.shields.io/badge/PyCharm-2D2D2D?style=flat-square&logo=pycharm">
+      </div>
+
+      <br>
+
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- ===== WORKSPACE ===== -->
+<div style="text-align:center; padding:20px;">
+  <h2 style="color:#4A4238; margin-bottom:10px; font-size:22px;">Workspace</h2>
+  <p style="color:#5A4F44; font-size:14px; margin-bottom:14px;">
+    공부 및 협업을 위한 공간입니다.
+  </p>
+
+  <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank" style="text-decoration:none; margin-right:10px;">
+    <img src="https://img.shields.io/badge/Study_Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
+  </a>
+
+  <a href="YOUR_ORG_URL" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Github%20Organization-4A4238?style=flat&logo=github&logoColor=white">
+  </a>
+</div>
+
+</div> <!-- global container end -->
+
+<br><br>
+
