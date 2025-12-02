@@ -132,46 +132,36 @@
         </ul>
       </div>
     </td>
-
     <td width="50%" valign="top" style="padding:20px;">
       <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Education</h2>
-
       <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px; margin-bottom:25px;">
         <p style="color:#5A4F44; font-weight:600; margin:0 0 4px 0;">SSAFY 14기</p>
         <p style="color:#5A4F44; font-size:14px; margin:0;">Python Track</p>
-
         <ul style="padding-left:18px;">
           <li style="color:#5A4F44; font-size:14px;">2025.07 - 참여 중</li>
           <li style="color:#5A4F44; font-size:14px;">AI/ML/DL 심화 실습</li>
           <li style="color:#5A4F44; font-size:14px;">웹 풀스택 프로젝트 개발</li>
         </ul>
       </div>
-
       <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Tech Stack</h2>
       <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
-
         <p style="color:#5A4F44; font-weight:600;">Backend</p>
         <img src="https://img.shields.io/badge/Python-7DA2A9?style=flat-square&logo=python">
         <img src="https://img.shields.io/badge/Django-5A7D61?style=flat-square&logo=django">
         <img src="https://img.shields.io/badge/DRF-C46A5D?style=flat-square&logo=django">
-
         <br><br>
-
         <p style="color:#5A4F44; font-weight:600;">Frontend</p>
         <img src="https://img.shields.io/badge/Vue.js-85BDA6?style=flat-square&logo=vuedotjs">
         <img src="https://img.shields.io/badge/JavaScript-ECC94B?style=flat-square&logo=javascript">
         <img src="https://img.shields.io/badge/HTML5-E67A4A?style=flat-square&logo=html5">
         <img src="https://img.shields.io/badge/CSS3-4A90E2?style=flat-square&logo=css3">
-
         <br><br>
-
         <p style="color:#5A4F44; font-weight:600;">AI/Data</p>
         <img src="https://img.shields.io/badge/Pandas-7DA2A9?style=flat-square&logo=pandas">
         <img src="https://img.shields.io/badge/NumPy-5A7DAB?style=flat-square&logo=numpy">
         <img src="https://img.shields.io/badge/Seaborn-85A4C1?style=flat-square">
         <img src="https://img.shields.io/badge/Matplotlib-4E7AA2?style=flat-square">
         <img src="https://img.shields.io/badge/PyTorch-C46A5D?style=flat-square&logo=pytorch">
-
         <br><br>
         <p style="color:#5A4F44; font-weight:600;">Tools</p>
         <img src="https://img.shields.io/badge/Git-D46A6A?style=flat-square&logo=git">
@@ -180,7 +170,6 @@
         <img src="https://img.shields.io/badge/PyCharm-2D2D2D?style=flat-square&logo=pycharm">
       </div>
     </td>
-
   </tr>
 </table>
 
