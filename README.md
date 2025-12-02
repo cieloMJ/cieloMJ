@@ -35,12 +35,9 @@
       <img src="https://img.shields.io/badge/Tistory-F56C2D?style=flat&logo=tistory&logoColor=white">
     </a>
   </div>
-
 </div>
-
 <br>
 <br>
-
 <!-- ===== CURRENTLY WORKING ON ===== -->
 <div style="padding:20px;">
   <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Currently Working On</h2>
@@ -62,10 +59,7 @@
     </ul>
   </div>
 </div>
-
 <br>
-<br>
-
 
 <div></div>
 
@@ -146,6 +140,8 @@
             <li style="color:#5A4F44; font-size:10px;">웹 풀스택 프로젝트 개발</li>
           </ul>
         </div>
+        <br>
+        <br>
         <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Tech Stack</h2>
         <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
           <p style="color:#5A4F44; font-weight:600;">Backend</p>
