@@ -64,13 +64,12 @@
 
 <br><br>
 
-<!-- GitHub markdown renderer 안정화를 위한 빈 div -->
+
 <div></div>
 
 <!-- ===== PROJECTS + EDUCATION / TECH (2 Column) ===== -->
 <table width="100%" style="border-collapse:collapse;">
   <tr>
-
     <td width="50%" valign="top" style="padding:20px;">
       <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Projects</h2>
 
