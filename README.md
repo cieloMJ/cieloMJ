@@ -71,24 +71,21 @@
 <table width="100%" style="border-collapse:collapse;">
   <tr>
 
-    <!-- LEFT: PROJECTS -->
     <td width="50%" valign="top" style="padding:20px;">
 
       <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Projects</h2>
 
       <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
 
-        <!-- SSAFY AI Challenge -->
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">SSAFY AI Challenge</h3>
         <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
           <li>2025.00.00-2025.00.00</li>
           <li>공행성 기반 무역량 예측 ML 모델</li>
           <li>시계열 기반 ML 파이프라인 구축</li>
         </ul>
-
+  
         <br>
 
-        <!-- Wedding Planner -->
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           Wedding Planner Web Service
           <a href="https://github.com/SSAFY-Finalpjt" target="_blank" style="text-decoration:none;">
@@ -102,7 +99,6 @@
 
         <br>
 
-        <!-- DACON 2 -->
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           운수종사자 인지 데이터 기반 교통사고 위험 예측
           <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-dacon-transport-risk" target="_blank">
@@ -112,10 +108,21 @@
         <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
           <li>AUC · Brier Score 기반 평가</li>
         </ul>
-
+        <br>
+        
+        <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;"> 
+          제3회 국민대학교 AI빅데이터 분석 경진대회 
+          <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-kookmin-aibd" target="_blank" style="text-decoration:none;"> 
+            <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;"> 
+          </a> 
+        </h3> 
+        <ul style="color:#5A4F44; line-height:1.55; font-size:14px;"> 
+          <li>2025.00.00-2025.00.00</li> 
+          <li>정형 / 시계열 / 무역 데이터 기반 분석</li> 
+          <li>분류 및 회귀 모델 성능 개선</li> 
+        </ul> 
         <br>
 
-        <!-- Shop Web Service -->
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           Shop Web Service
           <a href="https://github.com/springofseoul" target="_blank">
