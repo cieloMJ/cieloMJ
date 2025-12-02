@@ -78,10 +78,8 @@
           <li>2025.00.00-2025.00.00</li>
           <li>공행성 기반 무역량 예측 ML 모델</li>
           <li>시계열 기반 ML 파이프라인 구축</li>
-        </ul>
-
+        </ul
         <br>
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           Wedding Planner Web Service
           <a href="https://github.com/SSAFY-Finalpjt" target="_blank">
@@ -92,9 +90,7 @@
           <li>Vue.js + Django 기반 결혼 플랫폼</li>
           <li>청첩장 · 커뮤니티 · 플래너 기능 개발</li>
         </ul>
-
         <br>
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           운수종사자 인지 데이터 기반 교통사고 위험 예측
           <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-dacon-transport-risk" target="_blank">
@@ -104,9 +100,7 @@
         <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
           <li>AUC · Brier Score 기반 평가</li>
         </ul>
-
         <br>
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           제3회 국민대학교 AI빅데이터 분석 경진대회
           <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-kookmin-aibd" target="_blank">
@@ -118,9 +112,7 @@
           <li>정형 · 시계열 · 무역 데이터 기반 분석</li>
           <li>분류 및 회귀 모델 성능 개선</li>
         </ul>
-
         <br>
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">
           Shop Web Service
           <a href="https://github.com/springofseoul" target="_blank">
@@ -131,16 +123,13 @@
           <li>Django/Vue.js 쇼핑몰 서비스 구현</li>
           <li>Frontend 파트 담당</li>
         </ul>
-
         <br>
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">SSAFY Internal</h3>
         <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
           <li>일타싸피</li>
           <li>배틀싸피</li>
           <li>싸피레이스 예정</li>
         </ul>
-
       </div>
     </td>
 
