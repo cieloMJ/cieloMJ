@@ -13,9 +13,9 @@
   <img src="https://avatars.githubusercontent.com/cieloMJ" width="135"
        style="border-radius: 50%; margin-bottom: 18px;"/>
 
-  <h2 style="color:#4A4238; font-weight:600; font-size:26px;">Minji Kyoung</h2>
+  <h2 style="color:#4A4238; font-weight:600; font-size:25px;">Minji Kyoung</h2>
 
-  <p style="color:#5A4F44; line-height:1.55; margin:16px 0; font-size:11px;">
+  <p style="color:#5A4F44; line-height:1.55; margin:16px 0; font-size:10px;">
     AI · Backend · Web 개발을 공부하고 있습니다.<br>
     따뜻하고 실용적인 서비스를 만들고 싶습니다.<br>
     오늘도 차분하게 성장 중입니다 ☕
@@ -40,10 +40,12 @@
 
 <br>
 <br>
+<br>
+<br>
 
 <!-- ===== CURRENTLY WORKING ON ===== -->
 <div style="padding:20px;">
-  <h2 style="color:#4A4238; margin-bottom:15px; font-size:20px;">Currently Working On</h2>
+  <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Currently Working On</h2>
   <p style="color:#7d7469; font-size:11px;">최근 집중하고 있는 프로젝트와 학습 활동</p>
 
   <div style="
@@ -53,7 +55,7 @@
     padding:22px;
     text-align:left;
     color:#5A4F44;
-    font-size:11px;
+    font-size:10px;
   ">
     <ul style="line-height:1.6; padding-left:18px;">
       <li>Wedding Planner Web Service (Vue.js + Django)</li>
@@ -73,61 +75,61 @@
   <table width="100%" margin="auto" style="border-collapse:collapse;">
     <tr>
       <td width="50%" valign="top" style="padding:20px;">
-        <h2 style="color:#4A4238; margin-bottom:15px; font-size:20px;">Projects</h2>
+        <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Projects</h2>
         <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">SSAFY AI Challenge</h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">SSAFY AI Challenge</h3>
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>2025.00.00-2025.00.00</li>
             <li>공행성 기반 무역량 예측 ML 모델</li>
             <li>시계열 기반 ML 파이프라인 구축</li>
           </ul
           <br>
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">
             Wedding Planner Web Service
             <a href="https://github.com/SSAFY-Finalpjt" target="_blank">
               <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
             </a>
           </h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>Vue.js + Django 기반 결혼 플랫폼</li>
             <li>청첩장 · 커뮤니티 · 플래너 기능 개발</li>
           </ul>
           <br>
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">
             운수종사자 인지 데이터 기반 교통사고 위험 예측
             <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-dacon-transport-risk" target="_blank">
               <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
             </a>
           </h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>AUC · Brier Score 기반 평가</li>
           </ul>
           <br>
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">
             제3회 국민대학교 AI빅데이터 분석 경진대회
             <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-kookmin-aibd" target="_blank">
               <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
             </a>
           </h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>2025.00.00-2025.00.00</li>
             <li>정형 · 시계열 · 무역 데이터 기반 분석</li>
             <li>분류 및 회귀 모델 성능 개선</li>
           </ul>
           <br>
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">
             Shop Web Service
             <a href="https://github.com/springofseoul" target="_blank">
               <img src="https://img.icons8.com/ios-glyphs/18/4A4238/github.png" style="margin-left:4px;">
             </a>
           </h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>Django/Vue.js 쇼핑몰 서비스 구현</li>
             <li>Frontend 파트 담당</li>
           </ul>
           <br>
-          <h3 style="color:#5A4F44; font-size:15px; margin-bottom:6px;">SSAFY Internal</h3>
-          <ul style="color:#5A4F44; line-height:1.55; font-size:11px;">
+          <h3 style="color:#5A4F44; font-size:13px; margin-bottom:6px;">SSAFY Internal</h3>
+          <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
             <li>일타싸피</li>
             <li>배틀싸피</li>
             <li>싸피레이스 예정</li>
@@ -135,17 +137,17 @@
         </div>
       </td>
       <td width="50%" valign="top" style="padding:20px;">
-        <h2 style="color:#4A4238; margin-bottom:15px; font-size:20px;">Education</h2>
+        <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Education</h2>
         <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px; margin-bottom:25px;">
           <p style="color:#5A4F44; font-weight:600; margin:0 0 4px 0;">SSAFY 14기</p>
-          <p style="color:#5A4F44; font-size:11px; margin:0;">Python Track</p>
+          <p style="color:#5A4F44; font-size:10px; margin:0;">Python Track</p>
           <ul style="padding-left:18px;">
-            <li style="color:#5A4F44; font-size:11px;">2025.07 - 참여 중</li>
-            <li style="color:#5A4F44; font-size:11px;">AI/ML/DL 심화 실습</li>
-            <li style="color:#5A4F44; font-size:11px;">웹 풀스택 프로젝트 개발</li>
+            <li style="color:#5A4F44; font-size:10px;">2025.07 - 참여 중</li>
+            <li style="color:#5A4F44; font-size:10px;">AI/ML/DL 심화 실습</li>
+            <li style="color:#5A4F44; font-size:10px;">웹 풀스택 프로젝트 개발</li>
           </ul>
         </div>
-        <h2 style="color:#4A4238; margin-bottom:15px; font-size:20px;">Tech Stack</h2>
+        <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Tech Stack</h2>
         <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
           <p style="color:#5A4F44; font-weight:600;">Backend</p>
           <img src="https://img.shields.io/badge/Python-7DA2A9?style=flat-square&logo=python">
@@ -178,8 +180,8 @@
 <br><br>
 
 <div align="center">
-  <h2 style="color:#4A4238; margin-bottom:10px; font-size:15px;">Workspace</h2>
-  <p style="color:#5A4F44; font-size:11px; margin-bottom:14px;">
+  <h2 style="color:#4A4238; margin-bottom:10px; font-size:11px;">Workspace</h2>
+  <p style="color:#5A4F44; font-size:10px; margin-bottom:14px;">
     공부 및 협업을 위한 공간입니다.
   </p>
   <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank" style="text-decoration:none; margin-right:10px;">
