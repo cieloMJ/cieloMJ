@@ -72,9 +72,7 @@
   <tr>
     <td width="50%" valign="top" style="padding:20px;">
       <h2 style="color:#4A4238; margin-bottom:15px; font-size:22px;">Projects</h2>
-
       <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px;">
-
         <h3 style="color:#5A4F44; font-size:16px; margin-bottom:6px;">SSAFY AI Challenge</h3>
         <ul style="color:#5A4F44; line-height:1.55; font-size:14px;">
           <li>2025.00.00-2025.00.00</li>
