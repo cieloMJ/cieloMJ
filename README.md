@@ -131,12 +131,11 @@
           </ul>
         </div>
       </td>
-      <br>
+      <br><br>
       <td width="50%" valign="top" style="padding:20px;">
         <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Education</h2>
         <div style="border:1px solid #e5ddd3; background:#FCF7F1; border-radius:12px; padding:22px; margin-bottom:25px;">
-          <p style="color:#5A4F44; font-weight:600; margin:0 0 4px 0;">SSAFY 14기</p>
-          <p style="color:#5A4F44; font-size:10px; margin:0;">Python Track</p>
+          <p style="color:#5A4F44; font-weight:600; margin:0 0 4px 0;">SSAFY 14기-Python Track</p>
           <ul style="padding-left:18px;">
             <li style="color:#5A4F44; font-size:10px;">2025.07 - 참여 중</li>
             <li style="color:#5A4F44; font-size:10px;">AI/ML/DL 심화 실습</li>
