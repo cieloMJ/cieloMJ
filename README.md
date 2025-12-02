@@ -24,7 +24,7 @@
   <div style="margin-top: 10px;">
     <a href="mailto:cielode1226@gmail.com" 
        style="margin-right:6px; text-decoration:none; display:inline-block;">
-      <img src="https://img.shields.io/badge/Gmail-F5C6A5?style=flat&logo=gmail&logoColor=white" style="border:none;>
+      <img src="https://img.shields.io/badge/Gmail-F5C6A5?style=flat&logo=gmail&logoColor=white">
     </a>
     <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank"
        style="margin-right:6px; text-decoration:none; display:inline-block;">
@@ -38,7 +38,8 @@
 
 </div>
 
-<br><br>
+<br>
+<br>
 
 <!-- ===== CURRENTLY WORKING ON ===== -->
 <div style="padding:20px;">
@@ -62,7 +63,8 @@
   </div>
 </div>
 
-<br><br>
+<br>
+<br>
 
 
 <div></div>
@@ -173,7 +175,7 @@
   </tr>
 </table>
 
-<br>
+<br><br>
 
 <div style="text-align:center; padding:20px;">
   <h2 style="color:#4A4238; margin-bottom:10px; font-size:22px;">Workspace</h2>
