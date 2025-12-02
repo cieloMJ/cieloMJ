@@ -28,11 +28,11 @@
     </a>
     <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank"
        style="margin-right:6px; text-decoration:none; display:inline-block;">
-      <img src="https://img.shields.io/badge/Notion-3B3B3B?style=flat&logo=notion&logoColor=white"style="border:none;>
+      <img src="https://img.shields.io/badge/Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
     </a>
     <a href="https://cielococo.tistory.com/" target="_blank"
        style="text-decoration:none; display:inline-block;">
-      <img src="https://img.shields.io/badge/Tistory-F56C2D?style=flat&logo=tistory&logoColor=white" style="border:none;>
+      <img src="https://img.shields.io/badge/Tistory-F56C2D?style=flat&logo=tistory&logoColor=white">
     </a>
   </div>
 
@@ -181,10 +181,10 @@
     공부 및 협업을 위한 공간입니다.
   </p>
   <a href="https://www.notion.so/2710cec502b08030917bee82a4f4a8b3" target="_blank" style="text-decoration:none; margin-right:10px;">
-    <img src="https://img.shields.io/badge/Study_Notion-3B3B3B?style=flat&logo=notion&logoColor=white" style="border:none;>
+    <img src="https://img.shields.io/badge/Study_Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
   </a>
   <a href="YOUR_ORG_URL" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Github%20Organization-4A4238?style=flat&logo=github&logoColor=white" style="border:none;>
+    <img src="https://img.shields.io/badge/Github%20Organization-4A4238?style=flat&logo=github&logoColor=white">
   </a>
 </div>
 
