@@ -177,8 +177,8 @@
 
 <!-- ===== WORKSPACE ===== -->
 <div style="text-align:center; padding:20px;">
-  <h2 style="color:#4A4238; margin-bottom:10px; font-size:22px;">Workspace</h2>
-  <p style="color:#5A4F44; font-size:14px; margin-bottom:14px;">
+  <h2 style="color:#4A4238; margin-bottom:10px; font-size:22px; text-align : 'center';">Workspace</h2>
+  <p style="color:#5A4F44; font-size:14px; margin-bottom:14px; text-align : 'center';">
     공부 및 협업을 위한 공간입니다.
   </p>
 
