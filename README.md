@@ -13,7 +13,7 @@
   <img src="https://avatars.githubusercontent.com/cieloMJ" width="135"
        style="border-radius: 50%; margin-bottom: 18px;"/>
 
-  <h2 style="color:#4A4238; font-weight:600; font-size:26px;">Minji Kyoung</h2>
+  <h2 style="color:#4A4238; font-weight:600; font-size:30px;">Minji Kyoung</h2>
 
   <p style="color:#5A4F44; line-height:1.55; margin:16px 0; font-size:10px;">
     AI · Backend · Web 개발을 공부하고 있습니다.<br>
