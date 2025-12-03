@@ -16,9 +16,9 @@
   <h2 style="color:#4A4238; font-weight:600; font-size:30px;">Minji Kyoung</h2>
 
   <p style="color:#5A4F44; line-height:1.55; margin:16px 0; font-size:10px;">
-    AI · Backend · Web 개발을 공부하고 있습니다.<br>
+    AI · Backend · Frontend 개발을 공부하고 있습니다.<br>
     따뜻하고 실용적인 서비스를 만들고 싶습니다.<br>
-    오늘도 차분하게 성장 중입니다 ☕
+    오늘도 차근차근 성장 중입니다 ☕
   </p>
 
   <div style="margin-top: 10px;">
@@ -41,8 +41,7 @@
 <!-- ===== CURRENTLY WORKING ON ===== -->
 <div style="padding:20px;">
   <h2 style="color:#4A4238; margin-bottom:15px; font-size:15px;">Currently Working On</h2>
-  <p style="color:#7d7469; font-size:11px;">최근 집중하고 있는 프로젝트와 학습 활동</p>
-
+  
   <div style="
     border:1px solid #e5ddd3;
     background:#FCF7F1;
@@ -83,8 +82,9 @@
             </a>
           </h3>
           <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
+            <li>2025.00.00-2025.00.00</li>
             <li>Vue.js + Django 기반 결혼 플랫폼</li>
-            <li>청첩장 · 커뮤니티 · 플래너 기능 개발</li>
+            <li>청첩장 · 커뮤니티 · 플래너 등 기능 개발</li>
           </ul>
           <br>
           <h3 style="color:#5A4F44; font-size:10px; margin-bottom:6px;">
@@ -94,6 +94,8 @@
             </a>
           </h3>
           <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
+            <li>2025.00.00-2025.00.00</li>
+            <li>운수종사자 인지·정형 데이터 기반 교통사고 위험도 예측 모델 개발</li>
             <li>AUC · Brier Score 기반 평가</li>
           </ul>
           <br>
@@ -116,6 +118,7 @@
             </a>
           </h3>
           <ul style="color:#5A4F44; line-height:1.55; font-size:10px;">
+            <li>2025.00.00-2025.00.00</li>
             <li>Django/Vue.js 쇼핑몰 서비스 구현</li>
             <li>Frontend 파트 담당</li>
           </ul>
