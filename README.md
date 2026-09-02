@@ -30,10 +30,10 @@
        style="margin-right:6px; text-decoration:none; display:inline-block;">
       <img src="https://img.shields.io/badge/Notion-3B3B3B?style=flat&logo=notion&logoColor=white">
     </a> -->
-    <a href="https://cielococo.tistory.com/" target="_blank"
+    <!-- <a href="https://cielococo.tistory.com/" target="_blank"
        style="text-decoration:none; display:inline-block;">
       <img src="https://img.shields.io/badge/Tistory-F56C2D?style=flat&logo=tistory&logoColor=white">
-    </a>
+    </a> -->
   </div>
 </div>
 <br>
