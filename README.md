@@ -12,7 +12,7 @@
 
   <!-- title -->
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=32&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=25&lines=Welcome%20to%20my%20GITHUB&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=32&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=45&lines=Welcome%20to%20my%20GITHUB&repeat=false"
     alt="main title"
   /> 
 <br>
