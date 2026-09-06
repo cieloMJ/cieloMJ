@@ -1,6 +1,7 @@
 <!-- ===== HEADER ===== -->
 <div align="center">
   <br>
+  <br>
   
   <!-- character -->
   <img src="./github_header_img.png" 
@@ -11,7 +12,7 @@
 
   <!-- title -->
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=28&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=20&lines=Welcome%20to%20my%20GITHUB&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=32&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=25&lines=Welcome%20to%20my%20GITHUB&repeat=false"
     alt="main title"
   /> 
 <br>
@@ -23,7 +24,7 @@
 <div align="center">
   
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=11&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=18&lines=SELECT+AN+OPTION&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=500&height=18&lines=SELECT+AN+OPTION&repeat=false"
     alt="Select an option"
   />
   
@@ -31,7 +32,7 @@
 
   <a href="#about">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+ABOUT&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+ABOUT&repeat=false"
       alt="About"
     />
   </a>
@@ -39,7 +40,7 @@
 
   <a href="#education">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+EDUCATION&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+EDUCATION&repeat=false"
       alt="Education"
     />
   </a>
@@ -47,7 +48,7 @@
 
   <a href="#projects">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+PROJECTS&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+PROJECTS&repeat=false"
       alt="Projects"
     />
   </a>
@@ -55,7 +56,7 @@
 
   <a href="#toolkits">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+TOOLKITS&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+TOOLKITS&repeat=false"
       alt="Toolkits"
     />
   </a>
@@ -63,7 +64,7 @@
 
   <a href="#nowdoing">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+NOWDOING&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+NOWDOING&repeat=false"
       alt="Nowdoing"
     />
   </a>
@@ -71,7 +72,7 @@
 
 </div>
 
-
+<br>
 <br>
 
 ---
@@ -84,7 +85,7 @@
 
 <div>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=18&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=ABOUT%20ME&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=ABOUT%20ME&repeat=false"
     alt="About Me"
   />
 </div>
@@ -102,7 +103,7 @@
   />
 
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=22&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=150&height=28&lines=Hi%20I'm%20Minji&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=999999&color=5A3E32&center=true&vCenter=true&width=180&height=28&lines=Hi%20I'm%20Minji&repeat=false"
     alt="About Me"
   />
   
@@ -111,12 +112,11 @@
   안녕하세요!<br>
   작은 아이디어를 직접 구현하며,<br>
   새로운 기술을 배우며 성장하고 있습니다 🐹
-
   <br>
   
   <!-- INTERESTS -->
   <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+INTERESTS&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+INTERESTS&repeat=false"
       alt="Interests"
   />
   <br>
@@ -128,7 +128,7 @@
   
   <!-- LINKS -->
   <img
-      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=12&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+CONTACT&repeat=false"
+      src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=15&duration=1000&color=8A7A68&vCenter=true&width=120&height=22&lines=%3E+CONTACT&repeat=false"
       alt="Contact"
   />
   <br>
@@ -152,7 +152,7 @@
 
 <div>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=18&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=EDUCATION&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=EDUCATION&repeat=false"
     alt="EDUCATION"
   />
 </div>
@@ -188,7 +188,7 @@
 
 <div>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=18&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=PROJECTS&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=PROJECTS&repeat=false"
     alt="PROJECTS"
   />
 </div>
@@ -202,7 +202,7 @@
     <a href="https://github.com/orgs/Project-moawedding/repositories">
       <img 
         src="./logos/moa.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="MOA preview"
       />
@@ -220,14 +220,14 @@
     <br clear="left">
   </div>
 
-<br>
+<br><br>
 
   <!-- project 02 -->
   <div>
     <a href="https://github.com/cieloMJ/WebPJT-01">
       <img 
         src="./logos/unblur.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="UNBLUR preview"
       />
@@ -246,14 +246,14 @@
     <br clear="left">
   </div>
 
-<br>
+<br><br>
 
   <!-- project 03 -->
   <div>
     <a href="https://github.com/cieloMJ/GamePJT-01">
       <img 
         src="./logos/ET.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="ET preview"
       />
@@ -272,14 +272,14 @@
     <br clear="left">
   </div>
 
-<br>
+<br><br>
 
   <!-- project 04 -->
   <div>
     <a href="https://github.com/cieloMJ/GamePJT-02">
       <img 
         src="./logos/gifted.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="GIFTED preview"
       />
@@ -298,14 +298,14 @@
     <br clear="left">
   </div>
   
-<br>
+<br><br>
 
   <!-- project 05 -->
   <div>
     <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-kookmin-aibd">
       <img 
         src="./logos/else.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="else preview"
       />
@@ -316,14 +316,14 @@
     <sub>정형 · 시계열 · 무역 데이터 기반 분석</sub><br>
     <sub>분류 및 회귀 모델 성능 개선</sub>
   </div>
-<br>
+<br><br>
 
   <!-- project 06 -->
   <div>
     <a href="https://github.com/cieloMJ/data-contest-lab/tree/master/competitions/2025-dacon-transport-risk">
       <img 
         src="./logos/else.png"
-        width="40%"
+        width="45%"
         align="left"
         alt="else preview"
       />
@@ -334,7 +334,7 @@
     <sub>운수종사자 인지·정형 데이터 기반 교통사고 위험도 예측 모델 개발</sub><br>
     <sub>AUC · Brier Score 기반 평가</sub>
   </div>
-<br>
+<br><br>
 
 <br>
 
@@ -348,7 +348,7 @@
 
 <div>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=18&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=TOOLKITS&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=TOOLKITS&repeat=false"
     alt="TOOLKITS"
   />
 </div>
@@ -432,7 +432,7 @@
 
 <div>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=18&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=NOWDOING&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=24&duration=1&pause=0&color=5A3E32&background=F3F6D9&center=true&vCenter=true&width=150&height=28&lines=NOWDOING&repeat=false"
     alt="NOWDOING"
   />
 </div>
@@ -443,7 +443,7 @@
 <div align="center">
   <img
     src="https://streak-stats.demolab.com?user=cieloMJ&hide_border=true&background=FFFFFF&ring=9EBB7A&fire=D9B86C&currStreakLabel=5A3E32&sideLabels=6F665D&dates=9A9288"
-    width="55%"
+    width="80%"
     alt="GitHub Streak"
   />
 </div>
