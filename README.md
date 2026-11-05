@@ -1,7 +1,7 @@
 <!-- === Header === -->
 <div align = "center">
     <img
-        src = "./assets/header.svg"
+        src = "./assets/header.gif"
         alt = "header"
         width = "100%"
     >
