@@ -116,35 +116,25 @@
        TOP LEFT
        Edit this text content below
        ========================= -->
-  <text x="36" y="42" class="text-dark-outline top-left" fill="var(--color-top-left)">? CODING MODE</text>
-  <text x="36" y="42" class="text-light-outline top-left" fill="var(--color-top-left)">? CODING MODE</text>
+  <text x="36" y="42" class="top-left" fill="var(--color-top-left)">&#9679; CODING MODE</text>
 
   <!-- =========================
        TOP RIGHT
        Edit this text content below
        ========================= -->
-  <text x="864" y="42" text-anchor="end" class="text-dark-outline top-right" fill="var(--color-top-right)">? LEVEL 01</text>
-  <text x="864" y="42" text-anchor="end" class="text-light-outline top-right" fill="var(--color-top-right)">? LEVEL 01</text>
+  <text x="864" y="42" text-anchor="end" class="top-right" fill="var(--color-top-right)">&#9733; LEVEL 01</text>
 
   <!-- =========================
        TITLE
        Edit this text content below
        ========================= -->
-  <text x="450" y="123" text-anchor="middle" class="text-dark-outline title" fill="var(--color-title)">DEV ARCADE</text>
-  <text x="450" y="123" text-anchor="middle" class="text-light-outline title" fill="var(--color-title)">DEV ARCADE</text>
+  <text x="450" y="123" text-anchor="middle" class=" title" fill="var(--color-title)">MINJI'S DEV ARCADE</text>
 
   <!-- =========================
        SUBTITLE
        Edit this text content below
        ========================= -->
-  <text x="450" y="162" text-anchor="middle" class="text-dark-outline subtitle" fill="var(--color-subtitle)">
-    - WELCOME TO MY GITHUB -
-    <animate attributeName="opacity"
-             values="1;1;0.35;1"
-             dur="2.8s"
-             repeatCount="indefinite"/>
-  </text>
-  <text x="450" y="162" text-anchor="middle" class="text-light-outline subtitle" fill="var(--color-subtitle)">
+  <text x="450" y="162" text-anchor="middle" class="subtitle" fill="var(--color-subtitle)">
     - WELCOME TO MY GITHUB -
     <animate attributeName="opacity"
              values="1;1;0.35;1"
@@ -156,6 +146,19 @@
        FOOTER
        Edit this text content below
        ========================= -->
-  <text x="450" y="193" text-anchor="middle" class="text-dark-outline footer" fill="var(--color-footer)">[SELECT]</text>
-  <text x="450" y="193" text-anchor="middle" class="text-light-outline footer" fill="var(--color-footer)">[SELECT]</text>
+  <!-- FRONTEND DEV -->
+  <text x="280" y="193" text-anchor="middle"
+    class="footer"
+    fill="#6CE6C2">[FRONTEND DEV]</text>
+
+  <!-- GAME DEV -->
+  <text x="450" y="193" text-anchor="middle"
+    class="footer"
+    fill="#F7CE68">[GAME DEV]</text>
+
+  <!-- AI ENGINEER -->
+  <text x="620" y="193" text-anchor="middle"
+    class="footer"
+    fill="#93A8F8">[AI ENGINEER]</text>
+
 </svg>
