@@ -116,15 +116,15 @@
        TOP LEFT
        Edit this text content below
        ========================= -->
-  <text x="36" y="42" class="text-dark-outline top-left" fill="var(--color-top-left)">● PLAYER ONLINE</text>
-  <text x="36" y="42" class="text-light-outline top-left" fill="var(--color-top-left)">● PLAYER ONLINE</text>
+  <text x="36" y="42" class="text-dark-outline top-left" fill="var(--color-top-left)">? CODING MODE</text>
+  <text x="36" y="42" class="text-light-outline top-left" fill="var(--color-top-left)">? CODING MODE</text>
 
   <!-- =========================
        TOP RIGHT
        Edit this text content below
        ========================= -->
-  <text x="864" y="42" text-anchor="end" class="text-dark-outline top-right" fill="var(--color-top-right)">★ HIGH SCORE</text>
-  <text x="864" y="42" text-anchor="end" class="text-light-outline top-right" fill="var(--color-top-right)">★ HIGH SCORE</text>
+  <text x="864" y="42" text-anchor="end" class="text-dark-outline top-right" fill="var(--color-top-right)">? LEVEL 01</text>
+  <text x="864" y="42" text-anchor="end" class="text-light-outline top-right" fill="var(--color-top-right)">? LEVEL 01</text>
 
   <!-- =========================
        TITLE
@@ -138,14 +138,14 @@
        Edit this text content below
        ========================= -->
   <text x="450" y="162" text-anchor="middle" class="text-dark-outline subtitle" fill="var(--color-subtitle)">
-    — PRESS START TO EXPLORE —
+    - WELCOME TO MY GITHUB -
     <animate attributeName="opacity"
              values="1;1;0.35;1"
              dur="2.8s"
              repeatCount="indefinite"/>
   </text>
   <text x="450" y="162" text-anchor="middle" class="text-light-outline subtitle" fill="var(--color-subtitle)">
-    — PRESS START TO EXPLORE —
+    - WELCOME TO MY GITHUB -
     <animate attributeName="opacity"
              values="1;1;0.35;1"
              dur="2.8s"
@@ -156,6 +156,6 @@
        FOOTER
        Edit this text content below
        ========================= -->
-  <text x="450" y="193" text-anchor="middle" class="text-dark-outline footer" fill="var(--color-footer)">▲ ▲ ▼ ▼ ◀ ▶ ◀ ▶ B A</text>
-  <text x="450" y="193" text-anchor="middle" class="text-light-outline footer" fill="var(--color-footer)">▲ ▲ ▼ ▼ ◀ ▶ ◀ ▶ B A</text>
+  <text x="450" y="193" text-anchor="middle" class="text-dark-outline footer" fill="var(--color-footer)">[SELECT]</text>
+  <text x="450" y="193" text-anchor="middle" class="text-light-outline footer" fill="var(--color-footer)">[SELECT]</text>
 </svg>
