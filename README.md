@@ -109,9 +109,9 @@
   
   <br>
   
-  ¾È³çÇÏ¼¼¿ä!<br>
-  ÀÛÀº ¾ÆÀÌµð¾î¸¦ Á÷Á¢ ±¸ÇöÇÏ¸ç,<br>
-  »õ·Î¿î ±â¼úÀ» ¹è¿ì¸ç ¼ºÀåÇÏ°í ÀÖ½À´Ï´Ù ?
+  ì•ˆë…•í•˜ì„¸ìš”!<br>
+  ìž‘ì€ ì•„ì´ë””ì–´ë¥¼ ì§ì ‘ êµ¬í˜„í•˜ë©°,<br>
+  ìƒˆë¡œìš´ ê¸°ìˆ ì„ ë°°ìš°ë©° ì„±ìž¥í•˜ê³  ìžˆìŠµë‹ˆë‹¤ ?
   <br>
   
   <!-- INTERESTS -->
@@ -161,17 +161,17 @@
 
 <!-- EDUCATION CONTENT -->
 <div>
-  ? <img src="https://img.shields.io/badge/2026.10%20~-FFF8E8?style=flat" alt="2026.10"><br>
+  âœ¦ <img src="https://img.shields.io/badge/2026.10%20~-FFF8E8?style=flat" alt="2026.10"><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<b>HYUNDAI AI Insight Campus 1st</b><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<sub>AI Engineering Track</sub><br>
   <br><br>
   
-  ? <img src="https://img.shields.io/badge/2025.07%20~%202026.06-F3F6D9?style=flat" alt="2025.07 ~ 2026.06"><br>
+  âœ¦ <img src="https://img.shields.io/badge/2025.07%20~%202026.06-F3F6D9?style=flat" alt="2025.07 ~ 2026.06"><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<b>SSAFY 14th</b><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<sub>Python Track</sub><br>
   <br>
   
-  ? <img src="https://img.shields.io/badge/2016.03%20~%202023.02-E4F0D0?style=flat" alt="2016.03 ~ 2023.02"><br>
+  âœ¦ <img src="https://img.shields.io/badge/2016.03%20~%202023.02-E4F0D0?style=flat" alt="2016.03 ~ 2023.02"><br>
   &nbsp;&nbsp;&nbsp;&nbsp; <b>Chung-Ang Univ.</b><br>
   &nbsp;&nbsp;&nbsp;&nbsp; <sub>Economics</sub>
 </div>
@@ -214,7 +214,7 @@
     <br>
     <sub>2025.11 ~ 2025.12</sub><br>
     <sub>
-      ¿þµù ÁØºñ¿¡ ÇÊ¿äÇÑ ÀÏÁ¤°ú Á¤º¸¸¦ ÇÑ°÷¿¡¼­ °ü¸®ÇÒ ¼ö ÀÖ´Â ¸ÂÃãÇü ¿þµù ÇÃ·¡³Ê ¼­ºñ½º
+      ì›¨ë”© ì¤€ë¹„ì— í•„ìš”í•œ ì¼ì •ê³¼ ì •ë³´ë¥¼ í•œê³³ì—ì„œ ê´€ë¦¬í•  ìˆ˜ ìžˆëŠ” ë§žì¶¤í˜• ì›¨ë”© í”Œëž˜ë„ˆ ì„œë¹„ìŠ¤
     </sub>
     <br>    
     <br clear="left">
@@ -240,7 +240,7 @@
     <br>
     <sub>2026.01 ~ 2026.02</sub><br>
     <sub>
-      WebRTC ±â¹Ý È­»ó ÅëÈ­¿Í ´Ü°èº° ºí¶óÀÎµå ÇØÁ¦ ±â´ÉÀ» °áÇÕÇÑ ½Ç½Ã°£ ¼Ò°³ÆÃ ¼­ºñ½º
+      WebRTC ê¸°ë°˜ í™”ìƒ í†µí™”ì™€ ë‹¨ê³„ë³„ ë¸”ë¼ì¸ë“œ í•´ì œ ê¸°ëŠ¥ì„ ê²°í•©í•œ ì‹¤ì‹œê°„ ì†Œê°œíŒ… ì„œë¹„ìŠ¤
     </sub>
     <br>
     <br clear="left">
@@ -259,14 +259,14 @@
       />
     </a>
     <br>
-    <b>ÀÚº»ÁÖE.T</b><br>
+    <b>ìžë³¸ì£¼E.T</b><br>
     <img src="https://img.shields.io/badge/Unity-EAF4D9?style=flat" alt="Unity">
     <img src="https://img.shields.io/badge/C%23-F3F6D9?style=flat" alt="C#">
-    <img src="https://img.shields.io/badge/AWARD-¿ì¼öÇÁ·ÎÁ§Æ®-D9C4AF?style=flat" alt="Award">
+    <img src="https://img.shields.io/badge/AWARD-ìš°ìˆ˜í”„ë¡œì íŠ¸-D9C4AF?style=flat" alt="Award">
     <br>
     <sub>2026.02 ~ 2026.04</sub><br>
     <sub>
-      °æÁ¦ °³³äÀ» ÀÚ¿¬½º·´°Ô ÇÐ½ÀÇÒ ¼ö ÀÖµµ·Ï Á¦ÀÛÇÑ 2D ·¯´× °ÔÀÓ
+      ê²½ì œ ê°œë…ì„ ìžì—°ìŠ¤ëŸ½ê²Œ í•™ìŠµí•  ìˆ˜ ìžˆë„ë¡ ì œìž‘í•œ 2D ëŸ¬ë‹ ê²Œìž„
     </sub>
     <br>
     <br clear="left">
@@ -292,7 +292,7 @@
     <br>
     <sub>2026.04 ~ 2026.06</sub><br>
     <sub>
-      ÇÃ·¹ÀÌ¾î°¡ ÁÖ¹®¿¡ ¸ÂÃç Á¦ÇÑ ½Ã°£ ³»¿¡ ¼±¹°À» Æ÷ÀåÇÏ´Â ½Ì±Û ÇÃ·¹ÀÌ °ÔÀÓ
+      í”Œë ˆì´ì–´ê°€ ì£¼ë¬¸ì— ë§žì¶° ì œí•œ ì‹œê°„ ë‚´ì— ì„ ë¬¼ì„ í¬ìž¥í•˜ëŠ” ì‹±ê¸€ í”Œë ˆì´ ê²Œìž„
     </sub>
     <br>
     <br clear="left">
@@ -311,10 +311,10 @@
       />
     </a>
     <br>
-    <b>Á¦3È¸ ±¹¹Î´ëÇÐ±³ AIºòµ¥ÀÌÅÍ ºÐ¼® °æÁø´ëÈ¸</b><br>
+    <b>ì œ3íšŒ êµ­ë¯¼ëŒ€í•™êµ AIë¹…ë°ì´í„° ë¶„ì„ ê²½ì§„ëŒ€íšŒ</b><br>
     <br>
-    <sub>Á¤Çü ¡¤ ½Ã°è¿­ ¡¤ ¹«¿ª µ¥ÀÌÅÍ ±â¹Ý ºÐ¼®</sub><br>
-    <sub>ºÐ·ù ¹× È¸±Í ¸ðµ¨ ¼º´É °³¼±</sub>
+    <sub>ì •í˜• Â· ì‹œê³„ì—´ Â· ë¬´ì—­ ë°ì´í„° ê¸°ë°˜ ë¶„ì„</sub><br>
+    <sub>ë¶„ë¥˜ ë° íšŒê·€ ëª¨ë¸ ì„±ëŠ¥ ê°œì„ </sub>
   </div>
 <br><br>
 
@@ -329,10 +329,10 @@
       />
     </a>
     <br>
-    <b>¿î¼öÁ¾»çÀÚ ÀÎÁö µ¥ÀÌÅÍ ±â¹Ý ±³Åë»ç°í À§Çè ¿¹Ãø</b><br>
+    <b>ìš´ìˆ˜ì¢…ì‚¬ìž ì¸ì§€ ë°ì´í„° ê¸°ë°˜ êµí†µì‚¬ê³  ìœ„í—˜ ì˜ˆì¸¡</b><br>
     <br>
-    <sub>¿î¼öÁ¾»çÀÚ ÀÎÁö¡¤Á¤Çü µ¥ÀÌÅÍ ±â¹Ý ±³Åë»ç°í À§Çèµµ ¿¹Ãø ¸ðµ¨ °³¹ß</sub><br>
-    <sub>AUC ¡¤ Brier Score ±â¹Ý Æò°¡</sub>
+    <sub>ìš´ìˆ˜ì¢…ì‚¬ìž ì¸ì§€Â·ì •í˜• ë°ì´í„° ê¸°ë°˜ êµí†µì‚¬ê³  ìœ„í—˜ë„ ì˜ˆì¸¡ ëª¨ë¸ ê°œë°œ</sub><br>
+    <sub>AUC Â· Brier Score ê¸°ë°˜ í‰ê°€</sub>
   </div>
 <br><br>
 
